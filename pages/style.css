@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+body
+{
+	font-family: "Lato", sans-serif;
+	margin-top: 0px;
+	margin-right: 0px;
+	background: #FAF0E4;
+}
+.sidenav
+{
+	background: #FFFAD7;
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav a
+{
+	color: black;
+	padding: 10px 15px 10px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+}
+.sidenav a:hover
+{
+	background: #F1C27B;
+}
+h2
+{
+	font-family: 'Abril Fatface', cursive;
+	padding: 5px;
+	color: #001C30;
+	letter-spacing: 5px;
+	font-size: 50px;
+	text-align: center;
+}
+h1
+{
+	padding: 1px;
+	color: #001C30;
+	font-family: 'Domine', serif;
+}
+.main
+{
+	margin-left: 285px;
+	margin-top: 0px;
+	background: #FAF0E4;
+	padding: 4px 10px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+p {
+	color: black;
+	font-size: 1.5rem;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: 'Mukta', sans-serif;
+}
+ul{
+	font-family: 'Domine', serif;
+}
+
+
+/*Making responsive*/
+@media screen and (max-width: 600px)
+{
+	.sidenav
+	{
+		padding-top: 15px;
+		width: 155px;
+
+	}
+	.sidenav a
+	{
+		padding-left: 20px;
+		font-size: 18px;
+	}
+	.main
+	{
+		margin-left: 32%;
+		font-size: 15px;
+	}
+	p
+	{
+		display: inline-block;
+	}
+}
